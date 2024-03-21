@@ -1,0 +1,38 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+—¿Cómo es que se instalan paquetes con yarn?
+
+R: Se puede usar el comando "yarn add [nombre de lo que se quiere instalar]
+
+Ejemplo: Hagamos un ejemplo hipotetico para instalar react con "yarn"
+
+Seria:
+
+                              yarn add react
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+—¿Cómo es que se borran paquetes con yarn?
+
+R: Se puede usar el comando "yarn remove [nombre de lo que se quiere borrar]
+
+Ejemplo: Hagamos un ejemplo hipotetico para borrar react con "yarn"
+
+Seria:
+
+                              yarn remove react
+
+ 
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+—¿Hay algún equivalente en yarn que haga lo mismo que npm init?
+
+R: Basicamente si en realidad solamente al que conocemos como "npm init" remplazamos "npm" con ---> "yarn" y basicamente quedaria asi:
+
+Ejemplo: Hagamos un ejemplo hipotetico para inicializar un nuevo proyecto y crear un archivo package.json usando "yarn" y no asi "npm"
+
+Seria:
+
+                              yarn init 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
