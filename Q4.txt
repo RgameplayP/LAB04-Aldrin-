@@ -1,0 +1,55 @@
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- --
+
+— ¿Cómo eliminar una rama creada en git? Crea una nueva rama llamada feature/QA, para posteriormente borrarla.
+
+R: Para poder eliminar en una rama se usa un comando el cual es "git branch -d [nombre de la rama a borrar]"
+
+Ejemplo: En este caso se borrara la rama feature/QA pero antes debemos crearla y aquí los pasos:
+
+                              //Creamos la rama "feature/QA"
+                              característica de rama de git/control de calidad
+
+                              //Comprobamos que se creo la nueva rama con el comando:
+                              rama git
+
+                              //Eliminamos la rama "feature/QA"
+                              git rama -d característica/QA
+
+
+
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- --
+—¿Por qué debería de usar la ramificación en proyectos?
+
+
+
+R: Mas que todo por los beneficios que se tiene al usar esto, los cuales son:
+
+1) Gestión de versiones: Facilita la gestión de versiones del software al mantener un historial claro de los cambios realizados en cada rama.
+2) Colaboración: Permite a varios desarrolladores trabajar en diferentes características simultáneamente sin interferir entre sí.
+3) Experimentación segura: Facilita la experimentación con nuevas ideas sin alterar el código principal del proyecto.
+4) Separación de funcionalidades: Permite trabajar en nuevas características o solucionar problemas sin afectar el código base.
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- --
+
+—Usted recibió un ticket [SEM-005] y una vez terminado el trabajo usted decide crear una rama para un posterior PR. ¿Qué nombre pondría a la rama?
+al momento de crearla?
+
+
+R: Debemos nombrar la rama de una manera "clara y tambien respectiva", y esto se puede conseguir haciendo lo siguiente:
+
+Usar el prefijo del ticket seguido de una descripción breve de la tarea o característica que estás implementando.
+
+Ejemplo: Para un billete [SEM-005]
+
+Usar esta arquitectura ----> SEM-005-nombre-descriptivo
+
+Basicamente seria: Por ejemplo para informar de una actualizacion en el archivo "readme"
+
+                              rama git SEM-005-actualización-léame
+
+
+Esta rama estaría informando de una actualización del archivo README del proyecto. Este nombre proporciona una descripción clara y
+concisa de la tarea que se está llevando a cabo en la rama.
+
+
+
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- --
