@@ -9,8 +9,7 @@ const mergeComments = (mainBranch: string, featureBranch: string, addedFile: str
           y se añadió el archivo ${addedFile} que no existía en la rama ${mainBranch}, pero sí estaba en la rama ${featureBranch}.
  `;
 };
-                          
-// Uso de la función
+
 const comentarioMerge = mergeComments("main", "feature/LAB04-01", "Q-4.txt");
 console.log(comentarioMerge);
                           
